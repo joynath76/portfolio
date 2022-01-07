@@ -1,0 +1,38 @@
+.model {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.model_box {
+    display: flex;
+    flex-direction: column;
+    background-color: #3a3b3c;
+    animation: model 1s;
+    box-shadow: -3px -3px 10px rgba(0, 0, 0, 0.5),
+                3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+.model_box h2 {
+    color: white;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.model_content {
+    flex: 1;
+    overflow: scroll;
+}
+.model ::-webkit-scrollbar {
+    display: none;
+}
+@keyframes model {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}

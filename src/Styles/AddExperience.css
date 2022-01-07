@@ -1,0 +1,11 @@
+.addExperience {
+    width: 500px;
+    height: 80vh;
+    overflow: scroll;
+}
+.addExperience div {
+    margin: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}

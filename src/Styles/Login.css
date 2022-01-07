@@ -1,0 +1,18 @@
+.login {
+    width: 300px;
+}
+.login div {
+    margin: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.links {
+    color: white;
+    padding: 10px;
+    margin: 20px 0px;
+    text-align: center;
+    box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.5), 3px 3px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+

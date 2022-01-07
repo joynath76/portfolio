@@ -1,0 +1,11 @@
+.addProject {
+    width: 500px;
+    height: 80vh;
+    overflow: scroll;
+}
+.addProject div {
+    margin: 20px 60px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}

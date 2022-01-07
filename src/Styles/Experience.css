@@ -1,0 +1,20 @@
+.experience {
+    display: flex;
+    flex: 1;
+    background-color: #3a3b3c;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.experience_details {
+    color: #bbc6c9;
+    margin: 10px;
+}
+.experience_details h3 {
+    color: white;
+}
+.logo {
+    height: 60px;
+    object-fit: contain;
+    padding: 10px;
+}

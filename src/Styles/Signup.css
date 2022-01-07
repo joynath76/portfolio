@@ -1,0 +1,10 @@
+.signup {
+    width: 500px;
+}
+.signup div {
+    margin: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+

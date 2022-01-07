@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+* {
+  margin : 0;
 }
-
-.App-logo {
-  height: 40vmin;
+.app {
+  width: 100%;
+  height: 100vh;
+  background-color: #18191a;
+}
+button {
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  background-color: #3a3b3c;
+  border: none;
+  padding: 10px;
+  outline: none;
+  margin: 30px 0px;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+  box-shadow: -3px -3px 10px rgba(255, 255, 255, 0.5), 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+button:active{
+  box-shadow: inset -3px -3px 10px rgba(255, 255, 255, 0.5), inset 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+input,textarea,select {
+  color: white;
+  background-color: #3a3b3c;
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: inset -3px -3px 5px rgba(255, 255, 255, 0.5), inset 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+label{
   pointer-events: none;
+  position: absolute;
+  top: 35px;
+  left: 10px;
+  color: #bbc6c9;
+  transition: all 500ms;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.place_label{
+  top: 5px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.error_label {
+  color: red;
+  top: 100%;
+  left: 0;
+  font-size: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.edit_delete_buttons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  top: 0;
+}
+.edit_delete_buttons > button {
+  margin: 5px;
+  padding: 0px 2px;
+}
+.uploadLabel {
+  position: static;
+  display: flex;
+  cursor: pointer;
+  pointer-events: all;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: -3px -3px 10px rgba(255, 255, 255, 0.3), 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
